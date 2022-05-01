@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="slides.css">
+</head>
+<body>
+    <div class="slide-contenr">
+        <span class="arrow" onclick="controler(-1)"> &#8678; </span>
+        <span class="arrow" id="rig-aro" onclick="controler(1)"> &#8680; </span>
+      <div class="slide" id="sld-1">
+          <img src="LED TV Ad-01.jpg" alt="image" width="900"
+           onclick="fumc(rem)" height="400">
+          <h2>Content one</h2>
+      </div>
+      <div class="slide">
+        <img src="fv_page_cover1.jpg" alt="image" width="900" height="400">
+        <h2>Content two</h2>
+      </div>
+      <div class="slide">
+        <img src="signboard_mockup.jpg" alt="image" width="900" height="400">
+        <h2>Content three</h2>
+      </div>
+    </div>
+
+
+    <script src="sliding.js"></script>
+</body>
+</html>

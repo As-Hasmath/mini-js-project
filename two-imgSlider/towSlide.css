@@ -1,0 +1,21 @@
+.slide-contenr{
+    border:5px solid brown;
+    display: flex;
+    width:900px;
+    overflow:hidden;
+    margin:120px;
+
+}
+@keyframes automot {
+    40%{transform:translateX(-100%);}
+    66%{transform:translateX(-200%);}
+    
+}
+.slide{
+    width:100%;
+    animation-name:automot;
+    animation-duration: 21s;
+    animation-iteration-count: infinite;
+    animation-delay:3s;
+
+}

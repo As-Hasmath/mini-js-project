@@ -1,0 +1,72 @@
+@font-face{
+    font-family:oswald;
+    src:urt('oswald/Oswald-Regular.ttf');
+}
+body{
+    background-color:#dca887;
+}
+#main-div{
+    background-color:dimgray;
+    width:275px;
+    height:380px;
+    padding:20px;
+    padding-top:28px;
+    margin-left:37vw;
+    margin-top:15vh;
+    border-radius:19px;
+    box-shadow:16px 16px 48px 20px darkgray,
+    inset 12px 12px 8px rgb(153, 140, 140),
+    inset -12px -12px 8px rgb(153, 140, 140);
+}
+.formtg{
+    display:grid;
+    grid-row-gap:15px;
+  
+}
+.formtg #Ac{
+ grid-column:span 2;   
+ width:103px;
+}
+.formtg #zero{
+    grid-column-start:2;
+    grid-column-end:4;
+    width:103px;
+}
+.formtg #equl{
+    grid-column:span 2;
+    width:103px;
+}
+.formtg #plus{
+    grid-row:span 2;
+
+}
+.botm{
+    width:1.856em;
+    padding:10px;
+    background-image:linear-gradient(to right,black,gray);
+    text-align:center;
+    color:white;
+    font-family:oswald;
+    box-shadow:4px 4px 2px 5px rgb(36, 27, 27);
+
+}
+.screen{
+    background-color: rgba(0,200,60,0.8);
+    font-size:22px;
+    color:aqua;
+    outline:none;
+    height:45px;
+    text-align:right;
+
+}
+.formtg .screen{
+    display:grid;
+    grid-column:span 4;
+}
+.formtg div:hover{
+  cursor:pointer;
+}
+.formtg div:active{
+    opacity:0.8;
+}
+

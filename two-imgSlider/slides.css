@@ -1,0 +1,34 @@
+
+body{
+    margin:0px;
+}
+.slide-contenr{
+    margin-left:18%;
+    position:relative;
+}
+
+.slide{
+    position:absolute;
+    display:none;
+}
+.slide h2{
+    position: absolute;
+    bottom:-6px;
+    background-color:rgba(0,150,40,0.5);
+    width:97.90%;
+    padding:10px;
+    text-align: center;
+}
+.arrow{position: absolute;
+    top:120px;
+    z-index:5;
+    font-size:40px;
+    font-weight:800;
+    background-color: blueviolet;
+    opacity:0.5;
+    cursor:pointer;
+
+}
+#rig-aro{
+    right:220px;
+}

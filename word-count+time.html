@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+  <html>
+    <herd>
+        <title>word counter</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="countStyle.css">
+    </herd>
+    <body>
+      <h1 id="h1one">Welcome to Asmath's Word counter</h1>
+      <div id="main-box">
+        <textarea id="textbox"></textarea>
+
+        <p id="ptag1">
+            <span id="wordC">0</span>Word 
+            <span id="charC">0</span>character
+            <button onclick="REset()" id="res-btn">Reset</button>
+        </p>
+      </div>
+
+      <div id="timer-box">
+        <span id="hour">00</span>
+        <span>:</span>
+        <span id="min">00</span>
+        <span>:</span>
+        <span id="sec">00</span>
+        
+        <button id="stoP" onclick="stop()">Stop</button> 
+        <button id="starT" onclick="start()">Start</button>
+        <button id="reseT" onclick="reset()">Reset</button>
+      </div>
+
+      <script src="word.js"></script>
+    </body>
+  </html>

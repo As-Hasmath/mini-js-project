@@ -1,0 +1,50 @@
+@font-face{
+    font-family:heebo;
+    src:url('Heebo/static/Heebo-ExtraBold.ttf');
+}
+body{
+    background-color:rgb(51, 45, 45);
+}
+#head-d1{
+    display:flex;
+    background-color:rgb(61, 80, 50);
+    height:94px;
+    width:337px;
+    border-radius:20px;
+    font-size: 60px;
+    font-weight: 700;
+    font-family:heebo;
+    text-align: center;
+    color:aqua;
+    position:relative;
+}
+@keyframes colorCng{
+    20%{background-image: linear-gradient(to right,green,red,blue);}
+    40%{background-image: linear-gradient(to right,gray,yellow,black);}
+    60%{background-image: linear-gradient(to right,brown,white,rgb(90, 92, 10));}
+    80%{background-image: linear-gradient(to right,#7b2691,#aa5a5a,#daa520);}
+    100%{background-image: linear-gradient(to right,darkblue,#4682b4,#4682);}
+}
+#main{
+    margin:100px auto;
+    padding:10px;
+    background-image:linear-gradient(to right,rgb(146, 7, 7),blue,green);
+    width:338px;
+    border-radius:8px;
+    animation-name:colorCng;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes colorCng11 {
+    20%{color:#0c5ea1;}
+    50%{color:#daa520}
+    100%{color:#d32c2c}
+
+}
+
+.colour{
+    animation-name:colorCng11;
+    animation-duration: 5s;
+    animation-iteration-count: infinite; 
+    animation-direction:alternate;
+}

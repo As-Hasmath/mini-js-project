@@ -1,0 +1,45 @@
+h2{
+    background-color:lightsteelblue;
+    padding:10px;
+    text-align: center;
+    width:100%;
+}
+.cls{
+    position: fixed;
+    top:-20px;
+}
+img{
+    margin-left:13%;
+}
+p{
+    font-size:20px;
+}
+
+#sp1{
+    display:inline-block;
+    width:35px;
+    height:35px;
+    background-color: green;
+    text-align:left;
+}
+#sp2{
+    display:inline-block;
+    width:35px;
+    height:35px;
+    background-color: white;
+    text-align:left;
+}
+#sp3{
+    display:inline-block;
+    width:35px;
+    height:35px;
+    background-color:#00ced1;
+    text-align:left;
+}
+#sp4{
+    display:inline-block;
+    width:35px;
+    height:35px;
+    background-color: black;
+    text-align:left;
+}

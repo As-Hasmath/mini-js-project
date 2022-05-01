@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Calculator</title>
+     <link rel="stylesheet" href="Calc.css">
+  </head>
+  <body>
+    <div id="main-div">
+     <form class="formtg" name="formm">
+       <input type="text" class="screen" readonly name="result" >
+
+       <div class="botm" id="Ac" onclick="formm.result.value='' ">AC</div>
+
+       <div id='dle' class="botm" onclick="deletefn()">C1</div>
+
+       <div class="botm" onclick="formm.result.value+='.'">.</div>
+       <div class="botm" onclick="formm.result.value+='7'">7</div>
+       <div class="botm" onclick="formm.result.value+='8'">8</div>
+       <div class="botm" onclick="formm.result.value+='9'">9</div>
+       <div class="botm" onclick="formm.result.value+='/' ">/</div>
+       <div class="botm" onclick="formm.result.value+='4'">4</div>
+       <div class="botm" onclick="formm.result.value+='5'">5</div>
+       <div class="botm" onclick="formm.result.value+='6'">6</div>
+       <div class="botm" onclick="formm.result.value+='*'">*</div>
+       <div class="botm" onclick="formm.result.value+='1'">1</div>
+       <div class="botm" onclick="formm.result.value+='2'">2</div>
+       <div class="botm" onclick="formm.result.value+='3'">3</div>
+       <div class="botm" onclick="formm.result.value+='-'">-</div>
+       <div class="botm" onclick="formm.result.value+='0'">0</div>
+
+       <div class="botm" id='zero' onclick="formm.result.value+='00'">00
+       </div>
+       <div class="botm" id='plus' onclick="formm.result.value+='+'">+
+       </div>
+
+       <div class="botm" onclick="formm.result.value+='%' ">%</div>
+
+       <div class="botm" id="equl" onclick="formm.result.value=
+       eval(formm.result.value)">=</div>
+     </form>
+    </div>
+  </body>
+  <script src="calculation.js"></script>
+</html>
